@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
-    <versionUuid>_a-0000e363-95bf-8000-e9cb-01ef9001ef90_57352</versionUuid>
+    <versionUuid>_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_45642</versionUuid>
     <application>
         <name>Payment Screening</name>
         <uuid>_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_44946</uuid>
@@ -53,10 +53,6 @@
                         <uuid>_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_45488</uuid>
                         <uuid>_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_45569</uuid>
                         <uuid>_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_45632</uuid>
-                        <uuid>_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_45665</uuid>
-                        <uuid>_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_45671</uuid>
-                        <uuid>_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_45677</uuid>
-                        <uuid>_a-0000e363-95bf-8000-e9cb-01ef9001ef90_57005</uuid>
                     </uuids>
                 </item>
                 <item>
@@ -65,11 +61,15 @@
                 </item>
                 <item>
                     <type>processModelFolder</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>_g-0000e2cb-d2c4-8000-23f0-014d98014d98_31</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>processModel</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>0002e32c-345b-8000-23f0-014d98014d98</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>portlet</type>
@@ -239,9 +239,7 @@
                 <groups/>
             </role>
             <role allowForAll="false" inherit="false" name="administrators">
-                <users>
-                    <userUuid>saikirank</userUuid>
-                </users>
+                <users/>
                 <groups/>
             </role>
             <role allowForAll="false" inherit="false" name="denyReaders">
@@ -262,9 +260,5 @@
         <historyInfo versionUuid="_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_45003"/>
         <historyInfo versionUuid="_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_45493"/>
         <historyInfo versionUuid="_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_45642"/>
-        <historyInfo versionUuid="_a-0000e2cb-d2c4-8000-23f0-01ef9001ef90_45682"/>
-        <historyInfo versionUuid="_a-0000e27a-b3c1-8000-e9cb-01ef9001ef90_54927"/>
-        <historyInfo versionUuid="_a-0000e363-95bf-8000-e9cb-01ef9001ef90_57022"/>
-        <historyInfo versionUuid="_a-0000e363-95bf-8000-e9cb-01ef9001ef90_57352"/>
     </history>
-</applicationHaul><!--updated on 2020-03-15T15:00:15.759-->
+</applicationHaul><!--updated on 2020-07-31T15:35:39.012-->
